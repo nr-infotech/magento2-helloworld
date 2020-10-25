@@ -14,8 +14,8 @@ class HelloWorld extends \Magento\Framework\View\Element\Template
         parent::__construct($context, $data);
     }
 
-    public function getMessage()
+    public function _prepareLayout()
     {
-        return __('Hello World');
+        $this->setMessage(__('Hello World'));
     }
 }
