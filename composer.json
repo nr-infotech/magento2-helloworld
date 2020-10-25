@@ -1,0 +1,36 @@
+{
+    "name": "nr-infotech/magento2-helloworld",
+    "description":"This is hello word module for beginner in magento 2",
+    "keywords": [
+      "magento 2",
+      "magento",
+      "Hello World",
+      "Hello World for beginner",
+      "magento 2 extension",
+      "magento 2 extension free"
+    ],
+    "require": {
+      "php": "^7.1.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+    ],
+    "authors": [
+      {
+        "name": "NR Infotech",
+        "email": "nr.infotech1995@gmail.com",
+        "role": "Magento 2 Developer"
+      }
+    ],
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "NR\\HelloWorld\\": ""
+      }
+    }
+  }
